@@ -8,6 +8,6 @@ web:
     links:
         - php-fpm
 php-fpm:
-    image: php:7-fpm
+    image: php:8-fpm
     volumes:
         - ./src:/var/www/html
