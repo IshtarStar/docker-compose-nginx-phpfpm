@@ -1,13 +1,16 @@
-web:
-    image: nginx:latest
-    ports:
-        - "8080:80"
-    volumes:
-        - ./src:/var/www/html
-        - ./default.conf:/etc/nginx/conf.d/default.conf
-    links:
-        - php-fpm
-php-fpm:
-    image: php:8-fpm
-    volumes:
-        - ./src:/var/www/html
+version: "3.8"
+
+services:
+    web:
+        image: nginx:latest
+        ports:
+            - "8080:80"
+        volumes:
+            - ./src:/var/www/html
+            - ./default.conf:/etc/nginx/conf.d/default.conf
+        links:
+            - php-fpm
+    php-fpm:
+        image: php:8-fpm
+        volumes:
+            - ./src:/var/www/html
