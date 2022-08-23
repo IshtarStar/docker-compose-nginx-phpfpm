@@ -13,3 +13,8 @@ Notice: [I recommend this repository if you're looking for PHP with Xdebug 3](ht
 
 [Blog-Post: Dockerize your PHP application with Nginx and PHP8-FPM](https://marcit.eu/en/2021/04/28/dockerize-webserver-nginx-php8/)
 
+
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
