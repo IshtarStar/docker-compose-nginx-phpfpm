@@ -5,18 +5,3 @@ services:
         image: nginx:latest
         ports:
             - "8080:80"
-        volumes:
-            - ./src:/var/www/html
-            - ./default.conf:/etc/nginx/conf.d/default.conf
-        links:
-            - php-fpm
-
-    php-fpm:
-        build: docker/php-fpm
-        volumes:
-            - ./src:/var/www/html
-
-    redis:
-        image: bitnami/redis:latest
-        environment:
-            - ALLOW_EMPTY_PASSWORD=yes
