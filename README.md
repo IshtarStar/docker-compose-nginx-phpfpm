@@ -1,6 +1,6 @@
 # Docker PHP-FPM 8.* and Nginx
 
-Notice: [Use this repository if you're looking for PHP 8 with Xdebug 3](https://github.com/IshtarStar/docker-compose-nginx-phpfpm-xdebug-mariadb)
+*Notice:* [Use this repository if you're looking for PHP 8 with Xdebug 3](https://github.com/IshtarStar/docker-compose-nginx-phpfpm-xdebug-mariadb)
 
 ![nginx](https://img.shields.io/badge/nginx-brightgreen.svg)
 ![php](https://img.shields.io/badge/php-fpm-brightgreen.svg)
