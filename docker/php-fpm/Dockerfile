@@ -1,1 +1,1 @@
-FROM php:8.4.13-fpm
+FROM php:8.5.0-fpm
